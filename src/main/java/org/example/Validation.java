@@ -13,7 +13,7 @@ public class Validation {
                 .find()) {
       return false;
     }
-    if (Pattern.compile("\\s|\\n")
+    if (Pattern.compile("\\s")
                .matcher(str)
                .find()) {
       return false;
